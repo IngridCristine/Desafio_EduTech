@@ -1,0 +1,127 @@
+<!DOCTYPE html> <!--Estrutura html-->
+<html lang="pt-br"> <!--Especifica para o navegador qual é o idioma padrão-->
+
+	<head>
+		<meta charset= "UTF-8"> <!--Arruma a acentuação-->
+        <title>Programa EduTech | Front-End</title> <!--Nome da aba-->
+        <meta name="viewport" content="width=device-width"> <!--Descobre qual é a largura do dispositivo-->
+	    <link rel="stylesheet" href="reset.css"> <!--limpa tudo que o navegador cria-->
+	    <link rel="stylesheet" href="style.css"> <!--style.css-->
+	    <link rel="stylesheet" href="mobile.css"> <!--style.css-->
+	    <link rel="stylesheet" type="text/css" href="flexbox.css"> <!--flexbox da página-->
+	    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script> <!--Código JQuery para JS-->
+	    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&family=Source+Sans+Pro:wght@300;400;600;700;900&family=Varela+Round&family=Zilla+Slab:wght@400;500;700&display=swap" rel="stylesheet"> <!--fontes de texto do google-->
+	</head>
+
+	<body>
+		<!--Cabeçalho-->
+		<header>
+			<!--tag de navegação-->
+			<nav class="menu-de-navegacao"> 
+				<!--elemento de divisão-->
+				<div class="logo">
+					<img src="img/logo.png" class="img-logo"> <!--Logo-->
+					<h1 class="h1-logo">Programa EduTech</h1> <!--Logo-->
+				</div>
+
+				<!--elemento de divisão-->
+				<div class="menu">
+					<!--Lista desordenada de itens-->
+					<ul class="menu-lista">
+						<li><a href="index.html" class="a-menu">Início</a></li> <!--item da lista-->
+						<li><a class="submenu-acesso a-menu">Trilhas de estudo <img src="img/seta-branca.png" class="seta"> <!--seta--> </a> <!--item da lista-->
+		
+							<!--Lista desordenada de itens-->
+							<ul class="submenu-lista">
+								<div class="submenu-div">
+									<a href="trilha-games.html"><li>Games e Animações</li></a> <!--item da lista-->
+									<a href="trilha-frontEnd.html"><li>Front-End com HTML e CSS</li></a> <!--item da lista-->
+									<a href="trilha-mobile.html"><li>Desenvolvimento de Mobile baseado em JavaScript</li></a> <!--item da lista-->
+									<a href="trilha-dataScience.html"><li>Ciência de Dados</li></a> <!--item da lista-->
+									<a href="trilha-java.html"><li>Programação em Java</li></a> <!--item da lista-->
+									<a href="trilha-python.html"><li>Programação em Python</li></a> <!--item da lista-->
+								</div>
+							</ul>
+						</li>
+						<li><a href="inscricao.html" class="a-menu">Inscrição</a></li> <!--item da lista-->
+					</ul>
+				</div>
+			</nav>
+
+			<!--arquivo JavaScript-->
+			<script type="text/javascript" src="script.js"></script>
+		</header>
+
+		<!--Conteúdo principal-->
+		<main class="main-trilhas">
+			<!--divisão-->
+			<div class="div-trilhas">
+				<!--título-->
+				<h2 class="titulo-trilhas">Trilha de Front-End com HTML e CSS</h2>
+
+				<!--divisão-->
+				<div class="front-end">
+					<!--parágrafo-->
+					<p>&emsp;Neste curso indicado para a 1ª Série Ensino Médio vamos aprender como a lógica de programação funciona e vamos aplicá-la na construção de páginas e site utilizando a tecnologia HMTL5 e CSS3, que são as tecnologias de base utilizadas hoje no mercado de trabalho. Depois que tivermos conhecimento sobre as bases vamos avançar para algumas ferramentas que nos auxiliam no desenvolvimento mais rápido de páginas, sites e até mesmo ambientes completos, como portais, e para isso vamos utilizar ferramentas como Flexbox e Bootstrap e para concluir o nosso curso faremos um projeto completo desde a base às páginas, passando para um estudo de layout para que nosso site rode em vários tipos de dispositivos desde computadores até smartphones. contemplando as diversas técnicas e tecnologias para desenvolvimento de FRONT-END, que temos no mercado.</p>
+
+					<!--abre uma "janela" para o YouTube-->
+					<iframe src="https://www.youtube.com/embed/DmyoZ2T7wQs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video"></iframe>
+
+					<h3>Conteúdos:</h3> <!--subtítulo-->
+					<p class="conteudos">&emsp;☆ Lógica de programação I: Os primeiros programas com JavaScript e HTML</p>
+					<p class="conteudos">&emsp;☆ Lógica de programação II: Pratique com desenhos, animações e um jogo</p>
+					<p class="conteudos">&emsp;☆ HTML5 e CSS3 parte 1: A primeira página da Web</p>
+					<p class="conteudos">&emsp;☆ HTML5 e CSS3 parte 2: Posicionamento, listas e navegação</p>
+					<p class="conteudos">&emsp;☆ HTML5 e CSS3 parte 3: Trabalhando com formulários e tabelas</p>
+					<p class="conteudos">&emsp;☆ HTML5 e CSS3 parte 4: Avançando no CSS</p>
+					<p class="conteudos">&emsp;☆ CSS Grid: Simplificando layouts</p>
+					<p class="conteudos">&emsp;☆ Flexbox: Posicione elementos na tela</p>
+					<p class="conteudos">&emsp;☆ Bootstrap: Criação de uma single-page responsiva</p>
+					<p class="conteudos">&emsp;☆ Bootstrap 4: Criando uma landing page responsiva</p>
+					<p class="conteudos">&emsp;☆ Arquitetura CSS: Descomplicando os problemas</p>
+					<p class="conteudos">&emsp;☆ Acessibilidade web parte 1: Tornando seu front-end inclusivo</p>
+					<p class="conteudos">&emsp;☆ Acessibilidade web parte 2: Componentes acessíveis com um pouco de JavaScript</p>
+					<p class="conteudos">&emsp;☆ HTTP: Entendendo a web por baixo dos panos</p>
+					<p class="conteudos">&emsp;☆ Vetores e Animação com SVG: Trabalhando com CSS e JavaScript</p>
+					<p class="conteudos">&emsp;☆ Layouts Responsivos: Trabalhando com layouts mobile</p>
+					<p class="conteudos">&emsp;☆ Front-end: Projeto de conclusão</p>
+				</div>
+			</div>
+		</main>
+
+		<!--Rodapé-->
+		<footer>
+			<!--divisão-->
+			<div class="rodape">
+				<img src="img/logo-nome.png" class="rodape-logo">
+
+				<div class="rodape-informacoes">
+					<div class="rodape-contato">
+						<h3 class="titulo-rodape">Contato</h3>
+						<p><img src="img/icone-telefone.png">&emsp;(41) 3340-1500</p>
+						<p><img src="img/icone-email.png">&emsp;aulaparana@seed.pr.gov.br</p>
+						<p><img src="img/icone-email.png">&emsp;seed-pr@alura.com.br</p>
+						<p><img src="img/icone-email.png">&emsp;corporativo@alura.com.br</p>
+
+						<div class="rodape-redes-sociais">
+							<a href="https://www.instagram.com/seedparana/?hl=pt-br"><img src="img/instagram-branco.png" alt=""></a>
+							<a href="https://pt-br.facebook.com/EducacaoParana/"><img src="img/facebook-branco-quadrado.png" alt=""></a>
+							<a href="https://twitter.com/seedparana"><img src="img/twitter-branco-quadrado.png" alt=""></a>
+							<a href="https://www.youtube.com/c/DETEDSEEDPR/featured"><img src="img/youtube-branco.png" alt=""></a>
+						</div>
+					</div>
+
+					<div class="rodape-endereco">
+						<h3 class="titulo-rodape">Secretaria da Educação e do Esporte</h3>
+						<a href="https://maps.app.goo.gl/EGs6BdT6gUktMbV46"><img src="img/icone-mapa.png">&emsp;Av. Água Verde, 2140 - Vila Izabel <br>80240-900 - Curitiba - PR</a>
+
+						<!--abre uma "janela" para o Google maps-->
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d16530.31935516992!2d-49.292371!3d-25.454261!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce3836bfcf0a9%3A0xddf65733c4d6bdf5!2sAv.%20%C3%81gua%20Verde%2C%202140%20-%20%C3%81gua%20Verde%2C%20Curitiba%20-%20PR%2C%2080240-070!5e1!3m2!1spt-BR!2sbr!4v1638366173248!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" class="rodape-mapa"></iframe>
+					</div>
+				</div>	
+			</div>
+			<!--Símbolo copyright (direitos autorais)-->
+			<p class="copyright">&copy; Programa EduTech - 2021</p>
+		</footer>
+	</body>
+</html>

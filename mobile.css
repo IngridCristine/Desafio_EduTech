@@ -1,0 +1,878 @@
+/*faz uma "pesquisa" de qual é a largura do dispositivo e entrega o estilo correto"*/
+
+/*Celulares*/
+@media screen and (max-width: 499px) {
+	/*HEADER*/
+	.menu-de-navegacao {
+		width: 31.4em;
+		height: 605px;
+		flex-direction: column;
+		border: 1px solid white;
+		background: linear-gradient(45deg, #007540, #7DD2FF);
+	}
+
+	.logo {
+		justify-content: center;
+		padding: 40px;
+		flex-direction: column;
+	}
+
+	.img-logo {
+		width: 20%;
+		margin-left: 0;
+		margin-bottom: 20px;
+	}
+
+	.h1-logo {
+		letter-spacing: 2px;
+		font-size: 55px;
+		margin-left: 0;
+		margin-bottom: 20px;
+	}
+
+	.menu {
+		width: 100%;
+		margin: 0;
+		justify-content: center;
+	}
+
+	.menu-lista {
+		flex-direction: column;
+		font-size: 35px;
+	}
+
+	.menu-lista li {
+		width: 20.8em;
+		padding: 30px;
+		border: 1px solid white;
+	}
+
+	.seta {
+		width: 30px;
+	}
+
+	.submenu-lista {
+		top: 413px;
+		margin-left: 360px;
+	}
+
+	.submenu-lista a {
+		font-size: 25px;
+	}
+
+	.submenu-lista li { 
+		line-height: 35px; /*espaçamento entre as linhas*/
+		width: 335px;
+	}
+
+
+	/*INDEX*/
+	.main-index {
+		padding-bottom: 150px;
+		padding-top: 80px;
+	}
+
+	.img-capa {
+		display: none;
+	}
+
+	.sobre {
+		width: 49em;
+	}
+
+	.video {
+		width: 75%;
+		height: 20em;
+	}
+
+	h2 {
+		font-size: 42px;
+		padding-bottom: 30px;
+	}
+
+	h3 {
+		font-size: 39px;
+		line-height: 65px;
+	}
+
+	p {
+		font-size: 37px;
+		line-height: 65px;
+	}
+
+	.duvidas p, .orientacoes li {
+		font-size: 37px;
+		margin-bottom: 80px;
+		margin-top: 30px;
+		line-height: 65px;
+	}
+
+	.duvidas a, .orientacoes a, .trilhas a {
+		font-size: 38px;
+	}
+
+	/*TRILHAS*/
+	.main-trilhas {
+		width: 49em;
+	}
+
+	.nivel-1, .nivel-2, .front-end, .mobile, .cienciaDados, .java, .python {
+		margin: 0;
+	}
+
+	.titulo-trilhas {
+		padding-top: 50px;
+	}
+
+	.conteudos {
+		font-size: 35px;
+		margin-top: 5px;
+		margin-bottom: 6px;
+	}
+
+	.div-trilhas .video {
+		width: 70%;
+		height: 20em;
+	}
+
+
+	/*INSCRIÇÃO*/
+	.main-formulario {
+		width: 49em;
+	}
+
+	.titulo-form {
+		padding-top: 30px;
+	}
+
+	.p-form {
+		margin: 0 50px 0 50px;
+	}
+
+	.form {
+		margin: 50px 20px 50px 20px;
+		padding-top: 50px;
+		padding-bottom: 100px;
+		background-color: white;
+	}
+
+	.formulario {
+		height: 50px;
+		padding: 20px
+	}
+
+	.div-form-perguntas, .div-form-opcoes, .div-form-trilha {
+		margin: 0px 40px 0px 40px;
+		font-size: 37px;
+		line-height: 65px;
+	}
+
+	.div-form-perguntas span {
+		font-size: 30px;
+	} 
+
+	.subtitulo-form {
+		font-size: 42px;
+		padding-bottom: 20px;
+	}
+
+	.div-form-opcoes input, .div-form-trilha input {
+		width: 32px; 
+		height: 32px;
+	}
+
+	.div-form-perguntas input {
+		font-size: 25px;
+		margin-bottom: 70px;
+	}
+
+	.div-form-perguntas label {
+		margin: 0px 0px 20px 0px;
+	}
+
+	.botao, .a-avancar, .a-confirmar {
+		width: 400px;
+		font-size: 37px;
+		padding: 12px;
+		margin: 80px;
+	}
+
+	.img-inscricao {
+		width: 70%;
+		margin-bottom: 30px;
+	}
+
+
+	/*FOOTER*/
+	footer {
+		width: 49em;
+		height: 100%;
+		background: linear-gradient(45deg, #007540, #7DD2FF);
+	}
+
+	.rodape {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.rodape-informacoes {
+		width: 60%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-left: 50px;
+	}
+
+	.rodape-logo {
+		width: 210px;
+		height: 210px;
+		margin-left: 0px;
+	}
+
+	.titulo-rodape {
+		font-size: 38px;
+		margin: 0;
+		padding-bottom: 20px;
+	}
+
+	.rodape a {
+		padding: 3px;
+		font-size: 29px;
+		line-height: 60px;
+	}
+
+	.rodape p {
+		font-size: 30px;
+		line-height: 60px;
+	}
+
+	.rodape-contato, .rodape-endereco {
+		width: 40em;
+		padding: 20px 0px 20px 35px;
+		cursor: inherit;
+	}
+
+	.rodape-contato img, .rodape-endereco img {
+		width: 35px;
+	}
+
+	.rodape-redes-sociais img {
+		width: 50px;
+		margin-left: 20px;
+		margin-top: 30px;
+	}
+
+	.rodape-mapa {
+		width: 95%;
+		height: 100%;
+		margin-top: 35px;
+		border: 1px solid white;
+	}
+
+	.copyright {
+		font-size: 22px;
+		margin-top: 3%;
+	}
+}
+
+
+
+/*Tablets*/
+@media screen and (min-width: 500px) and (max-width: 899px) {
+    /*HEADER*/
+	.menu-de-navegacao {
+		width: 35.84em;
+		height: 629px;
+		flex-direction: column;
+		border: 1px solid white;
+		background: linear-gradient(45deg, #007540, #7DD2FF);
+	}
+
+	.logo {
+		justify-content: center;
+		padding: 40px;
+		flex-direction: column;
+	}
+
+	.img-logo {
+		width: 16%;
+		margin-left: 0;
+		margin-bottom: 40px;
+	}
+
+	.h1-logo {
+		letter-spacing: 2px;
+		font-size: 50px;
+		margin-left: 0;
+		margin-bottom: 18px;
+	}
+
+	.menu {
+		width: 100%;
+		margin: 0;
+		justify-content: center;
+	}
+
+	.menu-lista {
+		flex-direction: column;
+		font-size: 32px;
+	}
+
+	.menu-lista li {
+		width: 25.8em;
+		padding: 35px;
+		border: 1px solid white;
+	}
+
+	.seta {
+		width: 22px;
+	}
+
+	.submenu-lista {
+		top: 424px;
+		margin-left: 360px;
+	}
+
+	.submenu-lista a {
+		font-size: 18px;
+	}
+
+	.submenu-lista li { 
+		padding: 33px;
+		line-height: 35px; /*espaçamento entre as linhas*/
+		width: 433px;
+	}
+
+
+	/*INDEX*/
+	.main-index {
+		width: 56.1em;
+		padding-bottom: 100px;
+	}
+
+	.img-capa {
+		display: none;
+	}
+
+	h2 {
+		font-size: 37px;
+		padding-bottom: 30px;
+		padding-top: 50px;
+	}
+
+	h3 {
+		font-size: 34px;
+		line-height: 70px;
+	}
+
+	p {
+		font-size: 34px;
+		line-height: 70px;
+	}
+
+	.duvidas p, .orientacoes li {
+		font-size: 32px;
+		margin-bottom: 50px;
+		margin-top: 10px;
+		line-height: 70px;
+	}
+
+	.duvidas a, .orientacoes a, .trilhas a {
+		font-size: 30px;
+	}
+
+
+	/*TRILHAS*/
+	.main-trilhas {
+		width: 56.1em;
+	}
+
+	.nivel-1, .nivel-2, .front-end, .mobile, .cienciaDados, .java, .python {
+		margin: 0;
+	}
+
+	.titulo-trilhas {
+		padding-top: 50px;
+		line-height: 70px;
+	}
+
+	.conteudos {
+		font-size: 32px;
+		margin-top: 5px;
+		margin-bottom: 6px;
+	}
+
+	.div-trilhas .video {
+		width: 41.2em;
+		height: 25.9em;
+	}
+
+
+	/*INSCRIÇÃO*/
+	.main-formulario {
+		width: 56.1em;
+	}
+
+	.titulo-form {
+		padding-top: 30px;
+	}
+
+	.p-form {
+		margin: 0 50px 0 50px;
+	}
+
+	.form {
+		margin: 50px 40px 50px 40px;
+		padding-top: 50px;
+		padding-bottom: 80px;
+		background-color: white;
+	}
+
+	.formulario {
+		height: 40px;
+		padding: 20px;
+	}
+
+	.div-form-perguntas, .div-form-opcoes, .div-form-trilha {
+		margin: 0px 40px 0px 40px;
+		font-size: 33px;
+		line-height: 65px;
+	}
+
+	.div-form-perguntas span {
+		font-size: 28px;
+	} 
+
+	.subtitulo-form {
+		font-size: 39px;
+		padding-bottom: 20px;
+	}
+
+	.div-form-opcoes input, .div-form-trilha input {
+		width: 25px; 
+		height: 25px;
+	}
+
+	.div-form-perguntas input {
+		font-size: 23px;
+		margin-bottom: 70px;
+	}
+
+	.div-form-perguntas label {
+		margin: 0px 0px 20px 0px;
+	}
+
+	.botao, .a-avancar, .a-confirmar {
+		width: 300px;
+		font-size: 34px;
+		padding: 10px;
+		margin: 80px;
+	}
+
+	.img-inscricao {
+		width: 70%;
+		margin-bottom: 30px;
+	}
+
+
+	/*FOOTER*/
+	footer {
+		width: 56.1em;
+		height: 100%;
+		background: linear-gradient(45deg, #007540, #7DD2FF);
+	}
+
+	.rodape {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.rodape-informacoes {
+		width: 60%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-left: 80px;
+	}
+
+	.rodape-logo {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		width: 190px;
+		height: 190px;
+		margin-left: 0px;
+	}
+
+	.titulo-rodape {
+		font-size: 32px;
+		margin: 0;
+		padding-bottom: 20px;
+	}
+
+	.rodape a {
+		padding: 3px;
+		font-size: 26px;
+		line-height: 50px;
+	}
+
+	.rodape p {
+		font-size: 26px;
+		line-height: 50px;
+	}
+
+	.rodape-contato, .rodape-endereco {
+		width: 40em;
+		padding: 20px 0px 15px 35px;
+		cursor: inherit;
+	}
+
+	.rodape-contato img, .rodape-endereco img {
+		width: 26px;
+	}
+
+	.rodape-redes-sociais img {
+		width: 40px;
+		margin-left: 25px;
+		margin-top: 30px;
+	}
+
+	.rodape-mapa {
+		width: 80%;
+		height: 100%;
+		margin-top: 30px;
+		border: 1px solid white;
+	}
+
+	.copyright {
+		font-size: 20px;
+		margin-top: 3%;
+	}
+}
+
+
+
+/*Notebooks*/
+@media screen and (min-width: 900px) and (max-width: 1299px) {
+	/*HEADER*/
+	body {
+		padding-top: 120px;
+	}
+
+	.menu-de-navegacao {
+		position: fixed; /*fixa o menu sempre no topo da página*/
+		height: 120px;
+		flex-direction: row;
+	}
+
+	.img-logo {
+		width: 15%;
+		margin-left: 4%;
+	}
+
+	.h1-logo {
+		letter-spacing: 2px;
+		font-size: 1.6em;
+		margin-left: 3.0%;
+	}
+
+	.menu-de-navegacao {
+		font-size: 1.304em;
+	}
+
+    .menu {
+    	margin-left: 0;
+    	margin-right: 3%;
+    	justify-content: flex-end;
+	}
+
+	.seta {
+		width: 20px;
+	}
+
+	.submenu-lista {
+		top: 120px;
+	}
+
+	.submenu-lista a {
+		font-size: 14px;
+	}
+
+	.submenu-lista li { 
+		line-height: 32px; /*espaçamento entre as linhas*/
+		width: 190px;
+	}
+
+
+	/*TRILHAS*/
+	.main-trilhas {
+		padding-bottom: 80px;
+	}
+
+	.div-trilhas h2 {
+		margin: 50px 0px 40px 0px;
+	}
+
+	.nivel-1, .nivel-2, .front-end, .mobile, .cienciaDados, .java, .python {
+		margin: 0 10px 30px 10px;
+		padding-bottom: 30px;
+	}
+
+	.div-form-opcoes input, .div-form-trilha input {
+		width: 16px; 
+		height: 16px;
+	}
+
+	.img-inscricao {
+		width: 47%;
+		margin-bottom: 30px;
+	}
+
+
+	/*INSCRIÇÃO*/
+	.form {
+		margin: 50px 10% 50px 10%;
+	}
+
+	.formulario {
+		height: 30px;
+		padding: 10px
+	}
+
+	.div-form-perguntas, .div-form-opcoes, .div-form-trilha {
+		margin: 0px 10% 0px 10%;
+	}
+
+
+	/*FOOTER*/
+	footer {
+		height: 380px;
+	}
+	
+	.rodape {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-evenly;
+	}
+
+	.rodape-logo {
+		width: 200px;
+		height: 200px;
+		margin-top: 30px;
+		margin-left: 3%;
+	}
+
+	.rodape-informacoes {
+		width: 74%;
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-evenly;
+		margin-left: 0px;
+	}
+
+	.rodape-contato, .rodape-endereco {
+		padding: 50px 10px 20px 40px;
+	}
+
+	.rodape-mapa {
+		width: 290px;
+		height: 100px;
+		margin-top: 30px;
+	}
+}
+
+
+
+/*Computadores*/
+@media screen and (min-width: 1300px) {
+	/*HEADER*/
+	body {
+		padding-top: 150px;
+	}
+
+	.menu-de-navegacao {
+		position: fixed; /*fixa o menu sempre no topo da página*/
+		height: 150px;
+		flex-direction: row;
+	}
+
+	.img-logo {
+		width: 18%;
+		margin-left: 4%;
+	}
+
+	.h1-logo {
+		letter-spacing: 2px;
+		font-size: 42px;
+		margin-left: 3.5%;
+	}
+
+	.menu-de-navegacao {
+		font-size: 28px;
+	}
+
+    .menu {
+    	margin-left: 5%;
+    	margin-right: 4%;
+    	justify-content: flex-end;
+	}
+
+	.seta {
+		width: 25px;
+	}
+
+	.submenu-lista {
+		top: 150px;
+	}
+
+	.submenu-lista a {
+		font-size: 16px;
+	}
+
+	.submenu-lista li { 
+		line-height: 35px; /*espaçamento entre as linhas*/
+		width: 210px;
+	}
+
+	/*INDEX*/
+	.video {
+		width: 70%;
+		height: 32em;
+	}
+
+	h2 {
+		font-size: 35px;
+	}
+
+	h3 {
+		font-size: 29px;
+	}
+
+	p {
+		font-size: 27px;
+		line-height: 55px;
+	}
+
+	.duvidas p, .orientacoes li {
+		font-size: 26px;
+		margin-bottom: 60px;
+		margin-top: 20px;
+		line-height: 55px;
+	}
+
+	.duvidas a, .orientacoes a, .trilhas a {
+		font-size: 27px;
+	}
+
+
+	/*TRILHAS*/
+	.div-trilhas .video {
+		width: 70%;
+		height: 32em;
+	}
+
+	.conteudos {
+		font-size: 27px;
+	}
+
+
+	/*INSCRIÇÃO*/
+	.div-form-perguntas, .div-form-opcoes, .div-form-trilha {
+		font-size: 30px;
+		line-height: 50px;
+	}
+
+	.div-form-perguntas span {
+		font-size: 25px;
+	} 
+
+	.formulario {
+		height: 40px;
+		padding: 15px
+	} 
+
+	.subtitulo-form {
+		font-size: 34px;
+	}
+
+	.div-form-opcoes input, .div-form-trilha input {
+		width: 18px; 
+		height: 18px;
+	}
+
+	.div-form-perguntas input {
+		font-size: 21px;
+		margin-bottom: 50px;
+	}
+
+	.div-form-perguntas label {
+		margin: 0px 0px 30px 0px;
+	}
+
+	.botao, .a-avancar, .a-confirmar {
+		width: 350px;
+		font-size: 25px;
+		padding: 12px;
+		margin: 70px;
+	}
+
+
+	/*FOOTER*/
+	.rodape {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-evenly;
+	}
+
+	footer {
+		height: 550px;
+	}
+
+	.rodape-logo {
+		width: 240px;
+		height: 240px;
+		margin-left: 7%;
+	}
+
+	.rodape-informacoes {
+		width: 70%;
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-evenly;
+		margin-left: 0;
+	}
+
+	.rodape-contato, .rodape-endereco {
+		padding: 60px 0px 20px 4%;
+	}
+
+	.titulo-rodape {
+		font-size: 27px;
+		line-height: 40px;
+	}
+
+	.rodape a, .rodape p {
+		font-size: 24px;
+		line-height: 40px;
+	}
+
+	.rodape-contato img, .rodape-endereco img {
+		width: 25px;
+	} 
+
+	.rodape-redes-sociais img {
+		width: 36px;
+		margin-left: 20px;
+	}
+
+	.rodape-mapa {
+		width: 400px;
+		height: 120px;
+		margin-top: 40px;
+	}
+
+	.copyright {
+		font-size: 22px;
+		margin-top: 15px;
+	}
+
+}

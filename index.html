@@ -1,0 +1,169 @@
+<!DOCTYPE html> <!--Estrutura html-->
+<html lang="pt-br"> <!--Especifica para o navegador qual é o idioma padrão-->
+
+	<head>
+		<meta charset= "UTF-8"> <!--Arruma a acentuação-->
+		<meta name="viewport" content="width=device-width"> <!--Descobre qual é a largura do dispositivo-->
+        <title>Programa EduTech | Início</title> <!--Nome da aba-->
+	    <link rel="stylesheet" href="reset.css"> <!--limpa tudo que o navegador cria-->
+	    <link rel="stylesheet" href="style.css"> <!--style.css-->
+	    <link rel="stylesheet" href="mobile.css"> <!--style.css-->
+	    <link rel="stylesheet" type="text/css" href="flexbox.css"> <!--flexbox da página-->
+	    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script> <!--Código JQuery para JS-->
+	    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&family=Source+Sans+Pro:wght@300;400;600;700;900&family=Varela+Round&family=Zilla+Slab:wght@400;500;700&display=swap" rel="stylesheet"> <!--fontes de texto do google-->
+	</head>
+
+	<body>
+		<!--Cabeçalho-->
+		<header>
+			<!--tag de navegação-->
+			<nav class="menu-de-navegacao"> 
+				<!--elemento de divisão-->
+				<div class="logo">
+					<img src="img/logo.png" class="img-logo"> <!--Logo-->
+					<h1 class="h1-logo">Programa EduTech</h1> <!--Logo-->
+				</div>
+
+				<!--elemento de divisão-->
+				<div class="menu">
+					<!--Lista desordenada de itens-->
+					<ul class="menu-lista">
+						<li><a href="index.html" class="a-menu">Início</a></li> <!--item da lista-->
+						<li><a class="submenu-acesso a-menu">Trilhas de estudo <img src="img/seta-branca.png" class="seta"> <!--seta--> </a> <!--item da lista-->
+		
+							<!--Lista desordenada de itens-->
+							<ul class="submenu-lista">
+								<div class="submenu-div">
+									<a href="trilha-games.html"><li>Games e Animações</li></a> <!--item da lista-->
+									<a href="trilha-frontEnd.html"><li>Front-End com HTML e CSS</li></a> <!--item da lista-->
+									<a href="trilha-mobile.html"><li>Desenvolvimento de Mobile baseado em JavaScript</li></a> <!--item da lista-->
+									<a href="trilha-dataScience.html"><li>Ciência de Dados</li></a> <!--item da lista-->
+									<a href="trilha-java.html"><li>Programação em Java</li></a> <!--item da lista-->
+									<a href="trilha-python.html"><li>Programação em Python</li></a> <!--item da lista-->
+								</div>
+							</ul>
+						</li>
+						<li><a href="inscricao.html" class="a-menu">Inscrição</a></li> <!--item da lista-->
+					</ul>
+				</div>
+			</nav>
+
+			<!--arquivo JavaScript-->
+			<script type="text/javascript" src="script.js"></script>
+		</header>
+
+		<!--Conteúdo principal-->
+		<main class="main-index">
+			<img src="img/capa1.png" class="img-capa"> <!--imagem de capa-->
+
+			<!--divisão-->
+			<div class="sobre">
+				<h2>Sobre o programa</h2> <!--título-->
+				<p>&emsp;Pautada nas “Diretrizes para Ensino de Computação na Educação Básica”, da Sociedade Brasileira de Computação, e considerando as Competências Gerais da BNCC para a formação do jovem do século XXI, a Secretaria de Estado da Educação e do Esporte oportuniza a aprendizagem da programação, aumentando a capacidade de aprendizagem e resolução de problemas, promovendo novas formas de expressão e pensamento com a utilização de linguagem digital, exercitando a curiosidade intelectual, o pensamento crítico, científico e a criatividade e dando apoio ao aprendizado das demais disciplinas.</p> <!--parágrafo-->
+
+				<!--abre uma "janela" para o YouTube-->
+				<iframe src="https://www.youtube.com/embed/X1M4ieNQ6OM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video"></iframe>
+
+				<!--divisão-->
+				<div class="duvidas">
+					<h2>Dúvidas frequentes:</h2> <!--título-->
+
+					<h3>☆ Quem pode se inscrever?</h3> <!--subtítulo-->
+					<!--parágrafo-->
+					<p>&emsp;As inscrições destinam-se a crianças, adolescentes e jovens matriculados nas instituições de ensino da Rede Pública Estadual do Paraná.</p> 
+
+					<h3>☆ Os cursos são gratuitos?</h3> <!--subtítulo-->
+					<!--parágrafo-->
+					<p>&emsp;Sim, todos os cursos disponibilizados através do programa, em parceria com a plataforma <a href="https://www.alura.com.br/">Alura</a>, são gratuitos.</p>
+
+					<h3>☆ As aulas serão presenciais?</h3> <!--subtítulo-->
+					<!--parágrafo-->
+					<p>&emsp;As aulas são remotas, com um professor de programação como tutor de cada turma virtual.</p>
+
+					<h3>☆ Até quando os cursos ficarão disponíveis?</h3> <!--subtítulo-->
+					<!--parágrafo-->
+					<p>&emsp;O período dos cursos vai de 1º de abril até o final do ano letivo de 2021.</p>
+
+					<h3>☆ Possui certificado?</h3> <!--subtítulo-->
+					<!--parágrafo-->
+					<p>&emsp;Sim, a plataforma de programação disponibilizará um certificado, ao final de cada conteúdo de estudo finalizado.</p>
+
+					<h3>☆ Posso escolher qualquer curso da plataforma?</h3> <!--subtítulo-->
+					<!--parágrafo-->
+					<p>&emsp;Não, houve o planejamento de trilhas de estudos. Cada trilha possui um público alvo e deve ser concluída até o término do período dos cursos.</p>
+				</div>
+
+				<!--divisão-->
+				<div class="trilhas">
+					<h2>Trilhas de estudo:</h2> <!--título-->
+
+					<!--parágrafo // a tag "a" deixa a palavra destacada como um link-->
+					<p>&emsp;As trilhas de ensino dos cursos se dividem por séries. Alunos do 6º e do 7º anos podem cursar o nível 1 de <a href="trilha-games.html">Games e animações</a>, enquanto os do 8º e do 9º anos podem cursar o nível 2. Essas trilhas visam à criação de jogos 2D, desde a concepção do tema, passando pelo desenvolvimento da parte visual de animação, até a programação para o funcionamento do jogo.</p>
+
+					<!--parágrafo // a tag "a" deixa a palavra destacada como um link-->
+					<p>&emsp;Já os estudantes do 1º ano do Ensino Médio estudarão <a href="trilha-frontEnd.html">Programação front-end com HTML e CSS</a>, aprendendo a aplicar a lógica da programação na construção de páginas e sites, utilizando HTML5 e CSS3, que são as tecnologias de base usadas hoje no mercado de trabalho.</p>
+
+					<!--parágrafo // a tag "a" deixa a palavra destacada como um link-->
+					<p>&emsp;Para os alunos do 2º ano do Ensino Médio, há duas opções: <a href="trilha-mobile.html">Desenvolvimento de mobile baseado em JavaScript</a> e <a href="trilha-dataScience.html">Data Science</a> (Ciência de Dados). Enquanto o primeiro visa ao desenvolvimento de aplicativos mobile (que funcionam em smartphones, computadores ou tablets), o segundo consiste no processamento, análise e armazenamento de dados — uma área em crescimento, hoje, nos setores de tecnologia.</p>
+
+					<!--parágrafo // a tag "a" deixa a palavra destacada como um link-->
+					<p>&emsp;Os estudantes do 3º ano do Ensino Médio e do Técnico, por sua vez, podem escolher entre <a href="trilha-java.html">Programação em Java</a>, aplicando essa linguagem de programação a interfaces simples, passando pelo armazenamento de informações e até o desenvolvimento de uma aplicação completa, e <a href="trilha-python.html">Programação em Python</a>, trabalhando desde aplicações que manipulam informações simples, como dados de hardware, até informações complexas de alto poder de processamento, como ações dentro de games.</p>
+				</div>
+
+				<!--divisão-->
+				<div class="orientacoes">
+					<h2>Como se inscrever:</h2>
+					<p>&emsp; Antes de realizar sua inscrição nos cursos de programação, fique atento às orientações abaixo:</p>
+
+					<!--lista desordenada-->
+					<ul>
+						<!--itens da lista-->
+						<li>☆ Para se inscrever no Programa EduTech, recomendamos que utilize um computador e conecte-se primeiro à sua conta @escola e, depois, acesse a página de <a href="inscricao.html">inscrição</a>;</li>
+						<li>☆ Caso utilize um smartphone, acesse a página de <a href="inscricao.html">inscrição</a> utilizando uma janela anônima de seu navegador de internet e conecte-se à conta @escola;</li>
+						<li>☆ Para que a inscrição seja realizada com sucesso, deve-se estar logado unicamente com sua conta @escola;</li>
+						<li>☆ Processo de Credenciamento classifica os inscritos por ordem de inscrição;</li>
+						<li>☆ Os selecionados serão informados do início das atividades, pelo seu e-mail @escola;</li>
+						<li>☆ Caso o inscrito não receba o e-mail de confirmação, deve-se verificar a caixa de SPAM do seu e-mail "@escola".</li>	
+						<li>Consulte o <a href="https://www.educacao.pr.gov.br/sites/default/arquivos_restritos/files/documento/2021-03/edital032021_dti_seed.pdf">Edital</a>.</li>			
+					</ul>
+				</div>
+			</div>
+
+		</main>
+	
+		<!--Rodapé-->
+		<footer>
+			<!--divisão-->
+			<div class="rodape">
+				<img src="img/logo-nome.png" class="rodape-logo">
+
+				<div class="rodape-informacoes">
+					<div class="rodape-contato">
+						<h3 class="titulo-rodape">Contato</h3>
+						<p><img src="img/icone-telefone.png">&emsp;(41) 3340-1500</p>
+						<p><img src="img/icone-email.png">&emsp;aulaparana@seed.pr.gov.br</p>
+						<p><img src="img/icone-email.png">&emsp;seed-pr@alura.com.br</p>
+						<p><img src="img/icone-email.png">&emsp;corporativo@alura.com.br</p>
+
+						<div class="rodape-redes-sociais">
+							<a href="https://www.instagram.com/seedparana/?hl=pt-br"><img src="img/instagram-branco.png" alt=""></a>
+							<a href="https://pt-br.facebook.com/EducacaoParana/"><img src="img/facebook-branco-quadrado.png" alt=""></a>
+							<a href="https://twitter.com/seedparana"><img src="img/twitter-branco-quadrado.png" alt=""></a>
+							<a href="https://www.youtube.com/c/DETEDSEEDPR/featured"><img src="img/youtube-branco.png" alt=""></a>
+						</div>
+					</div>
+
+					<div class="rodape-endereco">
+						<h3 class="titulo-rodape">Secretaria da Educação e do Esporte</h3>
+						<a href="https://maps.app.goo.gl/EGs6BdT6gUktMbV46"><img src="img/icone-mapa.png">&emsp;Av. Água Verde, 2140 - Vila Izabel <br>80240-900 - Curitiba - PR</a>
+
+						<!--abre uma "janela" para o Google maps-->
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d16530.31935516992!2d-49.292371!3d-25.454261!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce3836bfcf0a9%3A0xddf65733c4d6bdf5!2sAv.%20%C3%81gua%20Verde%2C%202140%20-%20%C3%81gua%20Verde%2C%20Curitiba%20-%20PR%2C%2080240-070!5e1!3m2!1spt-BR!2sbr!4v1638366173248!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" class="rodape-mapa"></iframe>
+					</div>
+				</div>	
+			</div>
+			<!--Símbolo copyright (direitos autorais)-->
+			<p class="copyright">&copy; Programa EduTech - 2021</p>
+		</footer>
+	</body>
+</html>

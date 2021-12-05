@@ -1,0 +1,154 @@
+/*---------------------------------------------------HEADER---------------------------------------------------------*/
+.menu-de-navegacao {
+	display: flex;
+	/*flex-direction: row;
+	justify-content: space-evenly;*/
+}
+
+.logo{ 
+	display: flex;
+	align-items: center;
+}
+
+.menu {
+	display: flex;
+	/*justify-content: flex-end;*/
+}
+
+.menu-lista {
+	display: flex;
+	align-items: center;
+}
+
+/*.a-menu {
+	display: flex;
+	justify-content: center;
+}
+
+/*--------------------------------------------------FOOTER---------------------------------------------------------*/
+footer {
+	display: flex;
+	flex-direction: column;
+}
+
+/*.rodape {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
+}*/
+
+.rodape-logo {
+	display: flex;
+	align-self: center;
+	justify-self: baseline;
+}
+
+/*.rodape-informacoes {
+	width: 60%;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	margin-left: 120px;
+}*/
+
+.rodape-contato, .rodape-endereco {
+	display: flex;
+	flex-direction: column;
+}
+
+.rodape-redes-sociais {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: baseline;
+}
+
+.copyright {
+	align-self: center;
+}
+
+
+/*--------------------------------------------------INDEX----------------------------------------------------------*/
+.main-index {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.sobre {
+	/*width: 100%;
+	height: 100%;*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.duvidas, .orientacoes, .trilhas {
+	display: flex;
+	flex-direction: column;
+}
+
+.duvidas h2, .orientacoes h2, .trilhas h2 {
+	align-self: center;
+}
+
+
+/*---------------------------------------------------TRILHAS-------------------------------------------------------*/
+.div-trilhas {
+	display: flex;
+	flex-direction: column;
+}
+
+.div-trilhas h2 {
+	align-self: center;
+}
+
+.nivel-1, .nivel-2, .front-end, .mobile, .cienciaDados, .java, .python {
+	display: flex;
+	flex-direction: column;
+}
+
+.video {
+	align-self: center;
+}
+
+/*------------------------------------------------INSCRIÇÃO--------------------------------------------------------*/
+.main-formulario {
+	display: flex;
+	flex-direction: column;
+}
+
+.titulo-form {
+	align-self: center;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+}
+
+.subtitulo-form {
+	align-self: center;
+}
+
+.p-form-finalizacao {
+	align-self: center;
+}
+
+.div-form-perguntas, .div-form-opcoes, .div-form-trilha {
+	display: flex;
+	flex-direction: column;
+}
+
+.botao {
+	align-self: center;
+}
+
+.img-inscricao {
+	align-self: center;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------RESPONSIVO-----------------------------------------------------*/
+
